@@ -1,0 +1,188 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../images/fundo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+
+}
+
+header {
+    background: #000000;
+    padding: 20px 0;
+}
+
+.caixa {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+nav {
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #ff0000;
+    text-decoration: underline;
+}
+
+.cartegorias {
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.categorias li {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid whitesmoke;
+    margin-top: 07px;
+    border-radius: 10px;
+}
+
+.categorias li:hover {
+    border-color: #ff0000;
+}
+
+.categorias li:hover h2 {
+    font-size: 34px;
+}
+
+.categorias h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.produto-descricao {
+    font-size: 18px;
+}
+
+body {
+    font-family: sans-serif;
+    color: #fff;
+    
+}
+
+.description {
+    justify-content: center;
+    display: flex;
+    font-size: 20px;
+    font-weight: 300;
+    color: #fff;
+    line-height: 30px;
+
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+.btn {
+    justify-content: center;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 15px;
+    padding: 5px 30px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.btn-primary {
+    background-color: #ff0000;
+    border: 1px solid #fff;
+    margin-inline: 10px;
+    padding: 5px;
+    
+}
+
+.btn-primary:hover {
+    background-color: #0000;
+    color: #ff0000;
+
+}
+
+.footer.footer {
+    height: 100%;
+    background: #000;
+    position: relative;
+}
+
+.fale-conosco a{
+    text-decoration: none;
+
+}
+
+.contato {
+    margin-left: 45px;
+
+}
+
+.footer.footer .container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.footer.footer .container > div{
+    flex-grow: 1;
+    flex-basis: 0;
+    padding: 3rem 0.9rem;
+}
+
+.footer h4{
+    color: #fff;
+}
+
+.footer p{
+    font-size: 13px;
+    color: #fff;
+}
+
+.footer .sobre-nos{
+    margin-left: 20px;
+}
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
